@@ -1,0 +1,1149 @@
+[21Oct2025 19:43:32.061] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[21Oct2025 19:43:32.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[21Oct2025 19:43:33.033] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Oct2025 19:43:33.092] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/lolaso2.0/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[21Oct2025 19:43:33.359] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[21Oct2025 19:43:33.360] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Oct2025 19:43:33.361] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Oct2025 19:43:33.362] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21Oct2025 19:43:33.733] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[21Oct2025 19:43:35.591] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Oct2025 19:43:35.711] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[21Oct2025 19:43:35.714] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[21Oct2025 19:43:35.873] [main/INFO] [Puzzles Lib/]: Loading 46 mods:
+	- alexsmobs 1.22.9
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- argentinas_delight 1.1
+	- artifacts 9.5.16
+		\-- expandability 9.0.4
+	- bettervillage 3.3.1
+	- botarium 2.3.0
+	- chefsdelight 1.0.3-forge-1.20.1
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- create 6.0.6
+		|-- flywheel 1.0.4
+		|-- mixinextras 0.4.1
+		\-- ponder 1.0.80
+	- create_deep_dark 1.7.0
+	- create_new_age 1.1.4
+	- create_radar 0.3
+	- createbigcannons 5.9.1
+	- createdieselgenerators 1.20.1-1.3.5
+	- curios 5.11.1+1.20.1
+	- enchantinginfuser 8.0.3
+	- endersdelight 1.1.3
+	- farmersdelight 1.20.1-1.2.9
+	- forge 47.3.7
+	- glitchcore 0.0.1.1
+	- ironchest 1.20.1-14.4.3
+	- jei 15.20.0.114
+	- libraryferret 4.0.0
+	- minecraft 1.20.1
+	- miners_delight 1.20.1-1.2.3
+	- mynethersdelight 1.20.1-1.7.5
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- ritchiesprojectilelib 2.1.0
+	- securitycraft 1.10.0.1
+	- solcarrot 1.15.0
+	- some_assembly_required 1.20.1-4.2.1
+	- sophisticatedbackpacks 3.24.2.1341
+	- sophisticatedcore 1.2.96.1182
+	- terrablender 3.0.1.8
+	- terralith 2.4.5
+	- trade_cycling 1.20.1-1.0.18
+	- voicechat 1.20.1-2.6.4
+		\-- voicechat_api 2.6.0
+	- weaponleveling 1.20.1-2.2.2
+		\-- midnightlib 1.4.2
+[21Oct2025 19:43:36.803] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/amendments/events/behaviors/InteractEvents (java.lang.ClassNotFoundException: net.mehvahdjukaar.amendments.events.behaviors.InteractEvents)
+[21Oct2025 19:43:36.804] [main/WARN] [mixin/]: @Mixin target net.mehvahdjukaar.amendments.events.behaviors.InteractEvents was not found mynethersdelight.mixins.json:amendments.InteractEventsMixin
+[21Oct2025 19:43:36.816] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[21Oct2025 19:43:36.817] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor
+[21Oct2025 19:43:36.819] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[21Oct2025 19:43:36.819] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor
+[21Oct2025 19:43:36.929] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[21Oct2025 19:43:36.930] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
+[21Oct2025 19:43:37.065] [main/WARN] [mixin/]: Error loading class: com/theishiopian/parrying/Entity/DaggerEntity (java.lang.ClassNotFoundException: com.theishiopian.parrying.Entity.DaggerEntity)
+[21Oct2025 19:43:37.067] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/guns/common/Gun (java.lang.ClassNotFoundException: com.mrcrayfish.guns.common.Gun)
+[21Oct2025 19:43:37.070] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/guns/item/GunItem (java.lang.ClassNotFoundException: com.mrcrayfish.guns.item.GunItem)
+[21Oct2025 19:43:37.072] [main/WARN] [mixin/]: Error loading class: slimeknights/tconstruct/tools/item/ModifiableBowItem (java.lang.ClassNotFoundException: slimeknights.tconstruct.tools.item.ModifiableBowItem)
+[21Oct2025 19:43:37.076] [main/WARN] [mixin/]: Error loading class: slimeknights/tconstruct/tools/item/ModifiableCrossbowItem (java.lang.ClassNotFoundException: slimeknights.tconstruct.tools.item.ModifiableCrossbowItem)
+[21Oct2025 19:43:37.078] [main/WARN] [mixin/]: Error loading class: com/theishiopian/parrying/Entity/SpearEntity (java.lang.ClassNotFoundException: com.theishiopian.parrying.Entity.SpearEntity)
+[21Oct2025 19:43:37.080] [main/WARN] [mixin/]: Error loading class: net/bettercombat/logic/WeaponRegistry (java.lang.ClassNotFoundException: net.bettercombat.logic.WeaponRegistry)
+[21Oct2025 19:43:37.247] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[21Oct2025 19:43:37.250] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[21Oct2025 19:43:37.253] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[21Oct2025 19:43:37.255] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[21Oct2025 19:43:37.334] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21Oct2025 19:43:37.619] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[21Oct2025 19:43:42.444] [main/WARN] [mixin/]: @Final field f_35975_:Lnet/minecraft/core/NonNullList; in weaponleveling-common.mixins.json:InventoryMixin should be final
+[21Oct2025 19:43:43.285] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[21Oct2025 19:43:43.322] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[21Oct2025 19:43:43.480] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[21Oct2025 19:43:43.481] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[21Oct2025 19:43:43.489] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[21Oct2025 19:43:43.491] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[21Oct2025 19:43:43.494] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[21Oct2025 19:43:43.498] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[21Oct2025 19:43:43.499] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[21Oct2025 19:43:43.500] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[21Oct2025 19:43:43.795] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[21Oct2025 19:43:43.823] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[21Oct2025 19:43:43.823] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[21Oct2025 19:43:44.372] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Initializing Create Radar!
+[21Oct2025 19:43:44.377] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Items!
+[21Oct2025 19:43:44.474] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering blocks!
+[21Oct2025 19:43:44.502] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering block entity types!
+[21Oct2025 19:43:44.505] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CreativeTabs!
+[21Oct2025 19:43:44.516] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Lang!
+[21Oct2025 19:43:44.542] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CBC Compat Items!
+[21Oct2025 19:43:44.548] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[21Oct2025 19:43:45.204] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[21Oct2025 19:43:45.235] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[21Oct2025 19:43:45.252] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[21Oct2025 19:43:46.338] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[21Oct2025 19:43:46.339] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[21Oct2025 19:43:48.840] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddItemModifier$$Lambda$12201/0x00007d4d615b28b0@232f5720] * Field[conditions: passthrough[flatXmapped]] * Field[item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@547a602c] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:add_item.
+[21Oct2025 19:43:48.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.ReplaceItemModifier$$Lambda$12206/0x00007d4d615b33f0@65e67c43] * Field[conditions: passthrough[flatXmapped]] * Field[removed_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@547a602c] * Field[added_item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@547a602c] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:replace_item.
+[21Oct2025 19:43:48.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddLootTableModifier$$Lambda$12209/0x00007d4d615b3ac0@6cdca749] * Field[conditions: passthrough[flatXmapped]] * Field[lootTable: String[comapFlatMapped]]] has been registered twice for the same name farmersdelight:add_loot_table.
+[21Oct2025 19:43:48.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.PastrySlicingModifier$$Lambda$12212/0x00007d4d615b4170@35137ba5] * Field[conditions: passthrough[flatXmapped]] * Field[slice: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@547a602c]] has been registered twice for the same name farmersdelight:pastry_slicing.
+[21Oct2025 19:43:49.064] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[21Oct2025 19:43:49.148] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Display Sources!
+[21Oct2025 19:43:49.212] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[21Oct2025 19:43:49.225] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[21Oct2025 19:43:49.225] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[21Oct2025 19:43:49.226] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[21Oct2025 19:43:49.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[21Oct2025 19:43:49.482] [main/INFO] [com.happysg.radar.CreateRadar/]: Registered contraption type 'create_radar:radar_bearing'
+[21Oct2025 19:43:49.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[21Oct2025 19:43:49.507] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Oct2025 19:43:49.668] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[21Oct2025 19:43:49.669] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[21Oct2025 19:43:49.670] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[21Oct2025 19:43:49.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[21Oct2025 19:43:49.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[21Oct2025 19:43:50.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.4 Target: 1.20.1-2.6.6
+[21Oct2025 19:43:50.341] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[21Oct2025 19:43:50.438] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
+[21Oct2025 19:43:50.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[21Oct2025 19:43:50.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[21Oct2025 19:43:50.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[21Oct2025 19:43:50.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.33
+[21Oct2025 19:43:50.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[21Oct2025 19:43:50.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[21Oct2025 19:43:52.589] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Oct2025 19:43:54.720] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
+[21Oct2025 19:43:54.720] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/lolaso2.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
+[21Oct2025 19:43:54.829] [main/INFO] [com.simibubi.create.Create/]: Created 266 recipes which will be injected into the game
+[21Oct2025 19:43:54.840] [main/INFO] [com.simibubi.create.Create/]: Created 21 tags which will be injected into the game
+[21Oct2025 19:43:55.586] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[21Oct2025 19:43:56.675] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[21Oct2025 19:43:57.352] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:mynethersdelight:blocks/blackstone_cooking_pot
+com.google.gson.JsonSyntaxException: Unknown type 'mynethersdelight:copy_meal'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[21Oct2025 19:43:57.422] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:create_radar:blocks/radar_guidance_block
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'create_radar:radar_guidance_block'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[21Oct2025 19:43:57.908] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe nethersdelight:cutting/hoglin_sausage_alt
+com.google.gson.JsonSyntaxException: Unknown item 'nethersdelight:hoglin_loin'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.readIngredients(CuttingBoardRecipe.java:195) ~[FarmersDelight-1.20.1-1.2.9%20(1).jar%23159!/:1.20.1-1.2.9]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.fromJson(CuttingBoardRecipe.java:172) ~[FarmersDelight-1.20.1-1.2.9%20(1).jar%23159!/:1.20.1-1.2.9]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.m_6729_(CuttingBoardRecipe.java:164) ~[FarmersDelight-1.20.1-1.2.9%20(1).jar%23159!/:1.20.1-1.2.9]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Oct2025 19:43:57.949] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersrespite:chilidog_alt
+com.google.gson.JsonSyntaxException: Unknown item 'farmersrespite:blazing_chili'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Oct2025 19:43:57.993] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 39 recipes
+[21Oct2025 19:43:58.139] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3792 advancements
+[21Oct2025 19:43:58.159] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Oct2025 19:43:58.162] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_tentacles - error: Unknown type 'alternative'
+[21Oct2025 19:43:58.163] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2375!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23184!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[21Oct2025 19:43:58.164] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_silverfish - error: Unknown type 'alternative'
+[21Oct2025 19:43:58.175] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[21Oct2025 19:43:58.181] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[21Oct2025 19:43:58.186] [main/INFO] [someassemblyrequired.SomeAssemblyRequired/]: Loaded 67 sandwich ingredients
+[21Oct2025 19:44:00.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Oct2025 19:44:00.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Oct2025 19:44:00.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Oct2025 19:44:00.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Oct2025 19:44:00.202] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Oct2025 19:44:00.230] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Oct2025 19:44:00.315] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Oct2025 19:44:00.316] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Oct2025 19:44:00.316] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Oct2025 19:44:00.316] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Oct2025 19:44:00.357] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[21Oct2025 19:44:00.360] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[21Oct2025 19:44:00.367] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[21Oct2025 19:44:00.657] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21Oct2025 19:44:00.657] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[21Oct2025 19:44:00.663] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[21Oct2025 19:44:00.694] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21Oct2025 19:44:00.694] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Oct2025 19:44:04.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Oct2025 19:44:07.643] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:07.745] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:07.782] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:07.802] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:07.823] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:07.837] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:08.062] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:08.077] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:08.095] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:08.748] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:09.064] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:09.561] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Oct2025 19:44:10.059] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[21Oct2025 19:44:10.559] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[21Oct2025 19:44:10.585] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6526 ms
+[21Oct2025 19:44:10.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.256s)! For help, type "help"
+[21Oct2025 19:44:10.646] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Oct2025 19:44:10.646] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[21Oct2025 19:44:10.648] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21Oct2025 19:44:10.663] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'image-row.gl.at.ply.gg'
+[21Oct2025 19:44:10.663] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 17087
+[21Oct2025 19:44:14.069] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.184.205.59:33563] logged in with entity id 108 at (10480.713595925708, 93.0, 6652.425643428491)
+[21Oct2025 19:44:14.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 19:44:16.898] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 19:44:16.900] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 19:44:16.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2990ms or 59 ticks behind
+[21Oct2025 19:44:17.827] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 19:44:18.784] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 19:44:18.791] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 19:48:24.004] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:47717] logged in with entity id 869 at (1773.330668351603, 75.0, 2425.630239694829)
+[21Oct2025 19:48:24.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 19:48:26.656] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 19:48:26.656] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 19:48:26.705] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2743ms or 54 ticks behind
+[21Oct2025 19:48:29.578] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 19:48:31.414] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 19:48:31.415] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 19:48:37.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> emil
+[21Oct2025 19:48:40.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> q
+[21Oct2025 19:48:44.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> are you home?
+[21Oct2025 19:48:44.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> so
+[21Oct2025 19:48:50.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> no
+[21Oct2025 19:49:04.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> me voy a hacer tp estoy muy muy lejos bro
+[21Oct2025 19:50:31.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> en verdad emil
+[21Oct2025 19:50:34.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> vamos a dv
+[21Oct2025 19:50:36.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> vc
+[21Oct2025 19:50:57.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported emilghj to 150.500000, 67.000000, 3614.500000
+[21Oct2025 19:50:57.126] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2863ms or 57 ticks behind
+[21Oct2025 19:51:05.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> yeah
+[21Oct2025 19:51:11.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> toy en casa
+[21Oct2025 19:51:29.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> repuse los diamantes
+[21Oct2025 19:51:33.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> la mayoria
+[21Oct2025 19:51:38.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> hay como 34
+[21Oct2025 19:52:00.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> ok'
+[21Oct2025 19:55:45.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> loco pq tiene que llover aqui tambien
+[21Oct2025 19:56:32.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -6.941995753766832,0.0,7.743942157878337
+[21Oct2025 19:56:32.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -7.208995590450172,0.0,8.041786087027504
+[21Oct2025 19:56:32.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -7.475995427133512,0.0,8.33963001617667
+[21Oct2025 19:56:32.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -7.7429952638168515,0.0,8.637473945325837
+[21Oct2025 19:56:32.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -8.009995100500191,0.0,8.935317874475004
+[21Oct2025 19:56:32.803] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -8.276994937183531,0.0,9.23316180362417
+[21Oct2025 19:57:47.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -9.16297155215608,0.0,4.917819763774332
+[21Oct2025 19:57:47.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -9.515657169884832,0.0,5.10652255614059
+[21Oct2025 19:57:47.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -9.868349259489094,0.0,5.295214315241992
+[21Oct2025 19:57:47.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -10.22104717378113,0.0,5.483896144405662
+[21Oct2025 19:57:47.242] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of megatuber06) moved too quickly! -10.573750330292,0.0,5.672569036625191
+[21Oct2025 20:00:17.800] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.82.80.15:57415] logged in with entity id 9374 at (152.23561750792697, 49.0001001, 3615.6991424397893)
+[21Oct2025 20:00:17.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[21Oct2025 20:00:20.186] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[21Oct2025 20:00:20.186] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[21Oct2025 20:00:47.752] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:00:48.796] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:00:48.797] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player quackisa (12cff39a-7b65-3e2c-99f8-d07217df453d) successfully connected to voice chat
+[21Oct2025 20:00:53.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: quackisa was kicked for floating too long!
+[21Oct2025 20:00:53.023] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: quackisa lost connection: Disconnected
+[21Oct2025 20:00:53.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa left the game
+[21Oct2025 20:00:53.029] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client quackisa
+[21Oct2025 20:00:53.077] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[21Oct2025 20:01:07.192] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.82.80.15:52809] logged in with entity id 9595 at (152.23561750792697, 49.0001001, 3615.6991424397893)
+[21Oct2025 20:01:07.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[21Oct2025 20:01:08.292] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[21Oct2025 20:01:08.293] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[21Oct2025 20:01:16.018] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:01:17.020] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:01:17.021] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player quackisa (12cff39a-7b65-3e2c-99f8-d07217df453d) successfully connected to voice chat
+[21Oct2025 20:01:20.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa fell from a high place
+[21Oct2025 20:01:25.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> q paso
+[21Oct2025 20:01:31.514] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[21Oct2025 20:03:29.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> xaero-waypoint:casa de alguien:C:888:65:156:9:false:0:Internal-overworld-waypoints
+[21Oct2025 20:04:49.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported quackisa to 150.500000, 67.000000, 3614.500000
+[21Oct2025 20:16:48.953] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a18aca8f-045d-3cb5-a34b-480e96829118 timed out
+[21Oct2025 20:16:48.953] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player megatuber06
+[21Oct2025 20:16:48.954] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:16:48.954] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8 timed out
+[21Oct2025 20:16:48.955] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player emilghj
+[21Oct2025 20:16:48.955] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 20:16:49.962] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 12cff39a-7b65-3e2c-99f8-d07217df453d timed out
+[21Oct2025 20:16:49.962] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player quackisa
+[21Oct2025 20:16:49.962] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[21Oct2025 20:16:53.952] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj moved too quickly! -3.5153460120897932,-2.8291870918577047,-9.09085942878528
+[21Oct2025 20:16:55.069] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 20:16:55.761] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:16:56.069] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 20:16:56.070] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 20:16:56.736] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:16:56.737] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 20:16:59.773] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 20:16:59.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 20:16:59.774] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 20:17:08.624] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: quackisa lost connection: Timed out
+[21Oct2025 20:17:08.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa left the game
+[21Oct2025 20:17:08.625] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client quackisa
+[21Oct2025 20:17:12.991] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.82.80.15:49563] logged in with entity id 15143 at (160.53722428049323, -1.0, 3616.6707436640163)
+[21Oct2025 20:17:12.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[21Oct2025 20:17:13.511] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[21Oct2025 20:17:13.512] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[21Oct2025 20:17:20.366] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:17:21.359] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:17:21.360] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player quackisa (12cff39a-7b65-3e2c-99f8-d07217df453d) successfully connected to voice chat
+[21Oct2025 20:17:26.292] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:35129] logged in with entity id 15174 at (158.42878201634434, 63.875, 3606.702613264532)
+[21Oct2025 20:17:26.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 20:17:26.545] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 20:17:26.545] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:17:40.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> e
+[21Oct2025 20:17:43.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> perra
+[21Oct2025 20:17:44.511] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:17:45.506] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:17:45.506] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 20:19:36.041] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Anubis_11[/127.144.43.253:60181] logged in with entity id 15556 at (5445.098911804756, 90.0, 4565.788102930106)
+[21Oct2025 20:19:36.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anubis_11 joined the game
+[21Oct2025 20:19:37.849] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Anubis_11 (20)
+[21Oct2025 20:19:37.849] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Anubis_11
+[21Oct2025 20:19:39.901] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 0bdc3c98-e4a0-3902-8d49-26ad96fa683f
+[21Oct2025 20:19:40.900] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 0bdc3c98-e4a0-3902-8d49-26ad96fa683f
+[21Oct2025 20:19:40.901] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Anubis_11 (0bdc3c98-e4a0-3902-8d49-26ad96fa683f) successfully connected to voice chat
+[21Oct2025 20:19:41.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> mierquina
+[21Oct2025 20:19:49.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Anubis_11> hola chanvales
+[21Oct2025 20:19:54.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> chavala
+[21Oct2025 20:20:14.672] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/15589, l='ServerLevel[world]', x=5455.43, y=86.00, z=4550.24] died, message: 'Villager was slain by Zombie Villager'
+[21Oct2025 20:21:21.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Anubis_11> zzzzz
+[21Oct2025 20:21:50.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Anubis_11> duerman mi gente
+[21Oct2025 20:21:56.644] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8 timed out
+[21Oct2025 20:21:56.645] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player emilghj
+[21Oct2025 20:21:56.645] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 20:22:03.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 20:22:03.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 20:22:03.536] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 20:22:06.405] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.73.45.48:55071] logged in with entity id 16709 at (162.69064646561463, -1.7508129212553185, 3615.395278115795)
+[21Oct2025 20:22:06.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 20:22:06.664] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 20:22:06.664] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 20:22:09.072] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 20:22:10.064] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 20:22:10.065] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 20:22:25.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Disconnected
+[21Oct2025 20:22:25.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 20:22:25.983] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 20:22:43.990] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@21dd32c3[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:57129) lost connection: Disconnected
+[21Oct2025 20:23:17.280] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@410fff3a[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:45585) lost connection: Timed out
+[21Oct2025 20:23:43.700] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:46295] logged in with entity id 17434 at (150.5, -4.0, 3607.5)
+[21Oct2025 20:23:43.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 20:23:44.452] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 20:23:44.453] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:23:54.730] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:23:55.771] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:23:55.772] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 20:27:11.632] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: quackisa lost connection: Disconnected
+[21Oct2025 20:27:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa left the game
+[21Oct2025 20:27:11.633] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client quackisa
+[21Oct2025 20:27:30.382] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Disconnected
+[21Oct2025 20:27:30.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 20:27:30.383] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 20:28:28.936] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@8616f7c[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:60581) lost connection: Disconnected
+[21Oct2025 20:28:34.594] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:42455] logged in with entity id 22458 at (148.6648999595079, 63.0, 3630.379403477824)
+[21Oct2025 20:28:34.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 20:28:34.995] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 20:28:34.995] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:28:51.339] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:28:52.352] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:28:52.353] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 20:29:28.050] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a18aca8f-045d-3cb5-a34b-480e96829118 timed out
+[21Oct2025 20:29:28.050] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player megatuber06
+[21Oct2025 20:29:28.050] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:29:28.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 was kicked for floating too long!
+[21Oct2025 20:29:28.238] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Flying is not enabled on this server
+[21Oct2025 20:29:28.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 20:29:28.238] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 20:29:45.193] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:32965] logged in with entity id 24037 at (149.52756421592596, 65.25220334025373, 3628.430806499074)
+[21Oct2025 20:29:45.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 20:29:45.438] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 20:29:45.439] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:29:50.263] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:29:51.260] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:29:51.261] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 20:30:46.246] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -9.562698527899869,0.4990033597325265,-3.452406671135577
+[21Oct2025 20:32:22.543] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[21Oct2025 20:34:26.594] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj moved wrongly!
+[21Oct2025 20:37:25.877] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a18aca8f-045d-3cb5-a34b-480e96829118 timed out
+[21Oct2025 20:37:25.878] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player megatuber06
+[21Oct2025 20:37:25.878] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:37:31.190] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 20:37:31.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 20:37:31.191] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 20:38:17.429] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@576ed8be[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:57095) lost connection: Disconnected
+[21Oct2025 20:38:29.584] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1188d1a5[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:47727) lost connection: Disconnected
+[21Oct2025 20:38:39.452] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:42871] logged in with entity id 33747 at (160.97735274606794, -5.0, 3577.3620270884603)
+[21Oct2025 20:38:39.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 20:38:39.992] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 20:38:39.993] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:38:59.036] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:38:59.954] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:38:59.954] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 20:39:17.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anubis_11 has completed the challenge [The Power of the Sun]
+[21Oct2025 20:39:35.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Anubis_11> a lamierda
+[21Oct2025 20:40:27.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -0.9982131051140186,0.8322033533667454,10.138625676596803
+[21Oct2025 20:40:29.683] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Disconnected
+[21Oct2025 20:40:29.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 20:40:29.684] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 20:44:07.751] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:55491] logged in with entity id 37478 at (151.90816848451445, -4.0, 3598.4193774283267)
+[21Oct2025 20:44:07.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 20:44:08.590] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 20:44:08.593] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:44:24.898] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:44:25.743] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:44:25.744] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 20:44:28.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Anubis_11> a la mierda me encontre un fenix y me tiro una bendicion
+[21Oct2025 20:48:13.887] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Anubis_11 lost connection: Disconnected
+[21Oct2025 20:48:13.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Anubis_11 left the game
+[21Oct2025 20:48:13.887] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Anubis_11
+[21Oct2025 20:49:38.275] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 20:49:38.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 20:49:38.275] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 20:49:45.235] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: quackisa[/127.82.80.15:35791] logged in with entity id 41582 at (145.53839946013335, 63.0, 3627.996920959771)
+[21Oct2025 20:49:45.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa joined the game
+[21Oct2025 20:49:45.577] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of quackisa (20)
+[21Oct2025 20:49:45.577] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to quackisa
+[21Oct2025 20:49:51.983] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:49:52.954] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 12cff39a-7b65-3e2c-99f8-d07217df453d
+[21Oct2025 20:49:52.955] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player quackisa (12cff39a-7b65-3e2c-99f8-d07217df453d) successfully connected to voice chat
+[21Oct2025 20:54:08.589] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:60913] logged in with entity id 42946 at (170.30000001192093, -29.759199880361606, 3581.673266519173)
+[21Oct2025 20:54:08.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 20:54:08.829] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 20:54:08.829] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 20:54:15.924] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:54:16.785] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 20:54:16.785] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 21:07:28.853] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,10.16826996158505,0.0
+[21Oct2025 21:07:32.891] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,28.58349799675784,0.0
+[21Oct2025 21:07:33.026] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,29.33349799675784,0.0
+[21Oct2025 21:07:33.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,30.08349799675784,0.0
+[21Oct2025 21:07:33.396] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,31.08349799675784,0.0
+[21Oct2025 21:07:33.536] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,31.83349799675784,0.0
+[21Oct2025 21:07:33.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,32.58349799675784,0.0
+[21Oct2025 21:07:33.845] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,33.33349799675784,0.0
+[21Oct2025 21:07:34.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,34.33349799675784,0.0
+[21Oct2025 21:07:34.231] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,35.33349799675784,0.0
+[21Oct2025 21:07:34.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,36.08349799675784,0.0
+[21Oct2025 21:07:34.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,36.80886686904273,0.0
+[21Oct2025 21:07:39.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -0.24703959708793377,48.89373210432885,-0.2773001879045296
+[21Oct2025 21:07:39.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 0.0,47.58841884819725,0.0
+[21Oct2025 21:10:02.021] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8 timed out
+[21Oct2025 21:10:02.022] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player emilghj
+[21Oct2025 21:10:02.022] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:10:02.576] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: You logged in from another location
+[21Oct2025 21:10:02.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 21:10:02.576] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 21:10:02.591] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.184.205.59:36533] logged in with entity id 46175 at (168.13859221058206, -13.747796659746275, 3579.3026768912296)
+[21Oct2025 21:10:02.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 21:10:02.826] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 21:10:02.826] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:10:06.312] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:10:07.310] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:10:07.311] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 21:10:30.167] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8 timed out
+[21Oct2025 21:10:30.167] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player emilghj
+[21Oct2025 21:10:30.168] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:10:32.672] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 21:10:32.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 21:10:32.673] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 21:10:42.589] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.73.45.48:47537] logged in with entity id 46251 at (168.13859221058206, -14.0, 3579.3026768912296)
+[21Oct2025 21:10:42.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 21:10:42.756] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 21:10:42.756] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:10:50.282] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:10:51.278] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:10:51.278] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 21:11:40.472] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 21:11:40.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 21:11:40.473] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 21:13:27.872] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 21:13:27.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 21:13:27.873] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 21:13:28.621] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@55c51d38[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:49177) lost connection: Disconnected
+[21Oct2025 21:13:44.172] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@71b1e116[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:47829) lost connection: Disconnected
+[21Oct2025 21:13:50.133] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:43457] logged in with entity id 46767 at (151.17268029526613, 49.0, 3612.300000011921)
+[21Oct2025 21:13:50.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 21:13:50.346] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 21:13:50.346] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 21:13:54.487] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 21:13:55.488] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 21:13:55.488] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 21:14:24.987] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.73.45.48:48937] logged in with entity id 46899 at (171.69999998807907, -3.125, 3605.300000011921)
+[21Oct2025 21:14:24.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 21:14:33.530] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 21:14:33.530] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:14:51.692] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:14:53.394] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:14:53.394] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 21:15:10.124] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 21:15:10.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 21:15:10.124] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 21:15:51.283] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.73.45.48:57021] logged in with entity id 47073 at (171.69999998807907, -3.125, 3605.300000011921)
+[21Oct2025 21:15:51.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 21:15:51.978] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 21:15:51.978] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:16:21.372] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 21:16:21.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 21:16:21.372] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 21:19:53.602] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@699dafc0[id=<null>,name=emilghj,properties={},legacy=false] (/127.73.45.48:59709) lost connection: Disconnected
+[21Oct2025 21:20:01.382] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.73.45.48:34619] logged in with entity id 48103 at (171.69999998807907, -3.125, 3605.300000011921)
+[21Oct2025 21:20:01.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 21:20:01.602] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 21:20:01.605] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:20:03.885] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:20:04.885] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:20:04.885] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 21:26:33.989] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.23.195.88:33069] logged in with entity id 49950 at (-2375.7200615309484, 70.89942408821369, 1217.987500011921)
+[21Oct2025 21:26:33.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[21Oct2025 21:26:35.947] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[21Oct2025 21:26:35.947] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[21Oct2025 21:26:38.934] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 3dd7239d-b3eb-39bc-adfc-5add3f237d18
+[21Oct2025 21:26:39.934] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 3dd7239d-b3eb-39bc-adfc-5add3f237d18
+[21Oct2025 21:26:39.934] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xClas06 (3dd7239d-b3eb-39bc-adfc-5add3f237d18) successfully connected to voice chat
+[21Oct2025 21:26:48.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> hola chiques
+[21Oct2025 21:26:59.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> emil y ese internet
+[21Oct2025 21:27:04.088] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Timed out
+[21Oct2025 21:27:04.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[21Oct2025 21:27:04.089] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
+[21Oct2025 21:27:08.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> no se bro tu dime
+[21Oct2025 21:27:32.194] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.23.195.88:38413] logged in with entity id 50556 at (-2387.1392525518177, 69.0, 1260.2048355186225)
+[21Oct2025 21:27:32.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[21Oct2025 21:27:33.028] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[21Oct2025 21:27:33.029] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[21Oct2025 21:27:34.653] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 3dd7239d-b3eb-39bc-adfc-5add3f237d18
+[21Oct2025 21:27:35.652] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 3dd7239d-b3eb-39bc-adfc-5add3f237d18
+[21Oct2025 21:27:35.652] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xClas06 (3dd7239d-b3eb-39bc-adfc-5add3f237d18) successfully connected to voice chat
+[21Oct2025 21:27:39.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> .
+[21Oct2025 21:27:45.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> hola brooooo
+[21Oct2025 21:28:01.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> omar
+[21Oct2025 21:28:09.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> vamo a hacer la vaina
+[21Oct2025 21:28:09.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> estoy descangando warzone y me va del culo el internet ahora
+[21Oct2025 21:28:15.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> que
+[21Oct2025 21:28:16.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> loco
+[21Oct2025 21:28:21.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> vamo a jugar wz
+[21Oct2025 21:28:25.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> si me dejan
+[21Oct2025 21:28:32.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> denme 20 minutos que me falta como 50 gb para que se termine de descargar
+[21Oct2025 21:28:36.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> en 20 min se descarga
+[21Oct2025 21:28:38.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> me voy a salir
+[21Oct2025 21:28:40.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> oks
+[21Oct2025 21:28:47.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> bye chiques
+[21Oct2025 21:28:54.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> olvidalo ahora me esta llendo bien
+[21Oct2025 21:29:00.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> olvida eso
+[21Oct2025 21:29:01.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> bye
+[21Oct2025 21:29:02.987] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xClas06 lost connection: Disconnected
+[21Oct2025 21:29:02.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 left the game
+[21Oct2025 21:29:02.987] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client xClas06
+[21Oct2025 21:29:27.302] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8 timed out
+[21Oct2025 21:29:27.303] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player emilghj
+[21Oct2025 21:29:27.303] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:29:32.323] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 21:29:32.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 21:29:32.324] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 21:30:08.335] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.184.205.59:39565] logged in with entity id 51699 at (172.26938795469437, -25.0, 3582.300000011921)
+[21Oct2025 21:30:08.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 21:30:08.477] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 21:30:08.477] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:30:10.647] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:30:11.648] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 21:30:11.649] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 21:33:04.499] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8 timed out
+[21Oct2025 21:33:04.499] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player emilghj
+[21Oct2025 21:33:04.499] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 21:33:08.683] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 21:33:08.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 21:33:08.684] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 21:36:35.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> azzz
+[21Oct2025 21:37:01.211] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-199, y=-16, z=4385}
+[21Oct2025 21:37:47.410] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-242, y=12, z=4552}
+[21Oct2025 21:45:25.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -0.48358709394855737,-0.2987031463477883,-10.079897322183115
+[21Oct2025 21:54:29.408] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -5.462142875415751,-1.2618159725116644,8.317204697035322
+[21Oct2025 21:57:23.984] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 was kicked for floating too long!
+[21Oct2025 21:57:24.030] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Flying is not enabled on this server
+[21Oct2025 21:57:24.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 21:57:24.030] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 21:57:43.937] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:42743] logged in with entity id 68323 at (152.84302369830667, 65.02442408821369, 3625.485918012918)
+[21Oct2025 21:57:43.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 21:57:44.651] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 21:57:44.652] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 21:57:46.359] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 21:57:47.348] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 21:57:47.348] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 21:58:29.736] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 3.901171598673699,-3.663623709154969,-8.526674878410176
+[21Oct2025 21:59:02.590] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -1.1292049687403676,-8.82525074793058,4.966974302918061
+[21Oct2025 22:01:12.383] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Disconnected
+[21Oct2025 22:01:12.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:01:12.384] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:01:30.537] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:39375] logged in with entity id 70841 at (184.8254693158434, -22.0, 3535.421525581352)
+[21Oct2025 22:01:30.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:01:31.222] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:01:31.222] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:01:33.616] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:01:37.344] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:01:37.344] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:02:31.501] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 9.94840090391375,0.7345046936161239,2.5302353883284923
+[21Oct2025 22:03:19.747] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.184.205.59:35261] logged in with entity id 72041 at (146.0086097768658, -5.0, 3579.3765758344603)
+[21Oct2025 22:03:19.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 22:03:20.049] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 22:03:20.050] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 22:03:22.708] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 22:03:23.708] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 22:03:23.708] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 22:03:30.835] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 22:03:30.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:03:30.835] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:04:57.730] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5de9882a[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:35091) lost connection: Disconnected
+[21Oct2025 22:05:27.730] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1735d845[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:42127) lost connection: Disconnected
+[21Oct2025 22:05:47.529] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@33da8839[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:39237) lost connection: Disconnected
+[21Oct2025 22:06:42.793] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:39273] logged in with entity id 73943 at (249.84593535430278, -4.0, 3541.8805118096357)
+[21Oct2025 22:06:42.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:06:43.450] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:06:43.451] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:06:47.106] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:06:48.124] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:06:48.124] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:08:26.030] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 8.0,1.0,-6.037298598544567
+[21Oct2025 22:10:33.544] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -5.306301970053369,0.0,8.681140637595036
+[21Oct2025 22:12:09.057] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xClas06[/127.23.195.88:39451] logged in with entity id 77663 at (-2410.0910967066447, 67.0, 1237.102475820031)
+[21Oct2025 22:12:09.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xClas06 joined the game
+[21Oct2025 22:12:10.132] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of xClas06 (20)
+[21Oct2025 22:12:10.133] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to xClas06
+[21Oct2025 22:12:14.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duerman
+[21Oct2025 22:12:14.938] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 3dd7239d-b3eb-39bc-adfc-5add3f237d18
+[21Oct2025 22:12:15.940] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 3dd7239d-b3eb-39bc-adfc-5add3f237d18
+[21Oct2025 22:12:15.940] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player xClas06 (3dd7239d-b3eb-39bc-adfc-5add3f237d18) successfully connected to voice chat
+[21Oct2025 22:12:19.223] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 2.5619618130427853,-3.0,-9.439938330001041
+[21Oct2025 22:12:20.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> hi guys
+[21Oct2025 22:12:25.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> duerme
+[21Oct2025 22:12:31.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> hola gay
+[21Oct2025 22:12:41.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> duerme pussyyyyyyy
+[21Oct2025 22:12:49.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> dure mucho por que me quedew jugando al spiderman
+[21Oct2025 22:12:57.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duermannn
+[21Oct2025 22:12:59.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> vamos a vc?
+[21Oct2025 22:13:05.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> no
+[21Oct2025 22:13:07.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> yo estoy durmiendo
+[21Oct2025 22:13:10.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> mardita
+[21Oct2025 22:13:25.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> qn falta?
+[21Oct2025 22:13:28.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> qsy
+[21Oct2025 22:13:49.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> duerme
+[21Oct2025 22:13:58.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> quien faltaaaaa
+[21Oct2025 22:14:01.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> zarek
+[21Oct2025 22:14:07.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> lo mas seguro
+[21Oct2025 22:14:14.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> emil solo ponlo en el codespace
+[21Oct2025 22:14:19.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> time set day ese el comando
+[21Oct2025 22:14:21.653] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Disconnected
+[21Oct2025 22:14:21.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:14:21.653] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:14:28.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> nah
+[21Oct2025 22:14:35.459] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:48883] logged in with entity id 79641 at (268.05874655153644, 6.176759275064237, 3494.5206158179326)
+[21Oct2025 22:14:35.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:14:35.786] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:14:35.786] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:14:38.352] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:14:39.377] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:14:39.377] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:14:42.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> van a vc?
+[21Oct2025 22:17:58.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 was slain by Mimic
+[21Oct2025 22:18:05.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> vaya pupu
+[21Oct2025 22:18:26.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 4.801781034068682,-0.17876224719142186,-8.897234725742692
+[21Oct2025 22:19:30.617] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1358, y=79, z=4518} BlockPos{x=-1359, y=77, z=4519}
+[21Oct2025 22:19:39.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[21Oct2025 22:20:02.141] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7429ms or 148 ticks behind
+[21Oct2025 22:20:23.029] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5917ms or 118 ticks behind
+[21Oct2025 22:20:36.114] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 22:20:36.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:20:36.114] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:20:39.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> ???
+[21Oct2025 22:20:41.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> que le paso
+[21Oct2025 22:20:47.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> se lo follaron
+[21Oct2025 22:21:27.846] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6130d35d[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:58851) lost connection: Disconnected
+[21Oct2025 22:21:33.637] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:41269] logged in with entity id 86246 at (260.30000001192093, 49.0, 3472.300000011921)
+[21Oct2025 22:21:33.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:21:33.862] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:21:33.863] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:21:37.057] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:21:38.057] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:21:38.058] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:23:55.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> bro omar
+[21Oct2025 22:23:57.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> ?
+[21Oct2025 22:24:04.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> hacemos lo del punto medio?
+[21Oct2025 22:24:25.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> que pereza estar escribiendo por chat bro
+[21Oct2025 22:24:26.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> yo paso
+[21Oct2025 22:24:27.552] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -1.2396182378917047,2.2046003784434305,9.986765622214989
+[21Oct2025 22:24:36.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> Tt
+[21Oct2025 22:27:52.897] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-2381, y=70, z=1291} BlockPos{x=-2380, y=70, z=1291}
+[21Oct2025 22:32:02.476] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[21Oct2025 22:32:21.437] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3974ms or 79 ticks behind
+[21Oct2025 22:32:40.014] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3601ms or 72 ticks behind
+[21Oct2025 22:35:08.144] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: emilghj lost connection: Timed out
+[21Oct2025 22:35:08.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj left the game
+[21Oct2025 22:35:08.144] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client emilghj
+[21Oct2025 22:35:29.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -7.066729602411982,7.248135998590946,0.2199449086565437
+[21Oct2025 22:35:53.457] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: emilghj[/127.184.205.59:48063] logged in with entity id 96416 at (159.74591419385996, 66.0, 3646.3178003346998)
+[21Oct2025 22:35:53.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: emilghj joined the game
+[21Oct2025 22:35:53.675] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of emilghj (20)
+[21Oct2025 22:35:53.675] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to emilghj
+[21Oct2025 22:35:55.840] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 22:35:56.841] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a58d4edc-d868-348c-a1ab-e8ddf9cff6a8
+[21Oct2025 22:35:56.841] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player emilghj (a58d4edc-d868-348c-a1ab-e8ddf9cff6a8) successfully connected to voice chat
+[21Oct2025 22:37:44.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> y por que no hablan?
+[21Oct2025 22:37:49.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> soy emo
+[21Oct2025 22:37:57.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa has made the advancement [Flexible Schedule]
+[21Oct2025 22:38:19.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -2.5628425747516133,-0.8300000131130219,-9.790647410454312
+[21Oct2025 22:39:35.596] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 22:39:35.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:39:35.596] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:40:22.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quackisa has made the advancement [Chest Slayer]
+[21Oct2025 22:40:24.745] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@16b06f74[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:36457) lost connection: Disconnected
+[21Oct2025 22:40:30.404] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:56063] logged in with entity id 99577 at (152.66926738146722, 63.0, 3607.281857507138)
+[21Oct2025 22:40:30.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:40:30.614] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:40:30.614] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:41:00.540] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 22:41:00.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:41:00.540] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:42:49.860] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:38185] logged in with entity id 101468 at (152.66926738146722, 63.0, 3607.281857507138)
+[21Oct2025 22:42:49.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:42:50.099] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:42:50.099] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:42:54.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] tp putisa
+[21Oct2025 22:43:00.457] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:43:01.460] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:43:01.461] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:43:12.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> jajajajjjjjjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaajajjajaajajjajajjajaaja
+[21Oct2025 22:43:16.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> m
+[21Oct2025 22:43:18.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> SJAJJAAJJAJAJAJAJJAJAAJJAJAJAJAJAJAJAJJA
+[21Oct2025 22:43:44.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported quackisa to 150.500000, 67.000000, 3614.500000
+[21Oct2025 22:44:29.012] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -1.1789163631573842,2.0,-9.858580737988177
+[21Oct2025 22:45:30.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 was kicked for floating too long!
+[21Oct2025 22:45:30.236] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Flying is not enabled on this server
+[21Oct2025 22:45:30.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:45:30.236] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:45:56.649] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:42681] logged in with entity id 103429 at (152.35533651036175, -3.9998999, 3615.6997776843687)
+[21Oct2025 22:45:56.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:45:56.890] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:45:56.890] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:46:03.269] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:46:04.608] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:46:04.609] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:48:38.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duerman
+[21Oct2025 22:48:46.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> ZZZ
+[21Oct2025 22:49:00.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> Zenles Zone Zero
+[21Oct2025 22:49:01.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duerman
+[21Oct2025 22:49:06.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> xClas06
+[21Oct2025 22:49:10.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> duerme
+[21Oct2025 22:49:12.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> xClas06
+[21Oct2025 22:49:16.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <emilghj> zzz
+[21Oct2025 22:49:25.885] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 was kicked for floating too long!
+[21Oct2025 22:49:25.933] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Flying is not enabled on this server
+[21Oct2025 22:49:25.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:49:25.933] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:50:03.534] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@c99b2c6[id=<null>,name=megatuber06,properties={},legacy=false] (/127.136.144.194:39991) lost connection: Disconnected
+[21Oct2025 22:50:14.143] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:35137] logged in with entity id 105704 at (150.21787362353965, 58.024424088213685, 3609.842736576878)
+[21Oct2025 22:50:14.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:50:14.488] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:50:14.488] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:50:38.095] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:50:39.115] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:50:39.116] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:51:30.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 fell from a high place
+[21Oct2025 22:51:44.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> zarek tu eres muy mielda
+[21Oct2025 22:52:01.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> besitos en el fito
+[21Oct2025 22:54:26.236] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Disconnected
+[21Oct2025 22:54:26.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 22:54:26.237] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 22:54:42.801] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:43781] logged in with entity id 107800 at (169.66089056016597, -4.0, 3607.8897823638495)
+[21Oct2025 22:54:42.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 22:54:43.001] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 22:54:43.001] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 22:54:49.489] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:54:50.509] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 22:54:50.509] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 22:57:55.649] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -9.851450244779613,2.631903139982012,0.024569760961639986
+[21Oct2025 23:01:27.692] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! 9.312742417477295,0.12129684053918988,3.6962384338403353
+[21Oct2025 23:01:53.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> sean sinceros
+[21Oct2025 23:02:04.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <quackisa> ?
+[21Oct2025 23:02:04.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> diga
+[21Oct2025 23:02:07.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> no nada
+[21Oct2025 23:02:20.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> ...
+[21Oct2025 23:02:21.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> weo que hacen?
+[21Oct2025 23:02:31.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> matar a emil
+[21Oct2025 23:02:43.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> de verdad, que hacen
+[21Oct2025 23:02:54.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <megatuber06> granja de hierro
+[21Oct2025 23:03:05.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xClas06> jevi
+[21Oct2025 23:04:43.786] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 23:04:43.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 23:04:43.786] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 23:04:59.845] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:33043] logged in with entity id 112513 at (144.9968612479877, -5.0, 3581.5574068855444)
+[21Oct2025 23:04:59.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 23:05:00.238] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 23:05:00.238] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 23:05:07.595] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:05:08.603] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:05:08.604] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 23:08:38.943] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a18aca8f-045d-3cb5-a34b-480e96829118 timed out
+[21Oct2025 23:08:38.943] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player megatuber06
+[21Oct2025 23:08:38.944] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 23:08:45.385] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Timed out
+[21Oct2025 23:08:45.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 23:08:45.386] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 23:14:32.352] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:53103] logged in with entity id 118008 at (102.36513498422485, -44.0, 3599.091033407863)
+[21Oct2025 23:14:32.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 23:14:33.208] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 23:14:33.208] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 23:14:37.990] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:14:39.012] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:14:39.013] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 23:14:49.887] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 was kicked for floating too long!
+[21Oct2025 23:14:49.933] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 lost connection: Flying is not enabled on this server
+[21Oct2025 23:14:49.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 left the game
+[21Oct2025 23:14:49.934] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client megatuber06
+[21Oct2025 23:15:15.448] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: megatuber06[/127.136.144.194:42947] logged in with entity id 118405 at (96.84062311591043, -42.74779665974627, 3605.4832521924877)
+[21Oct2025 23:15:15.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: megatuber06 joined the game
+[21Oct2025 23:15:15.810] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of megatuber06 (20)
+[21Oct2025 23:15:15.810] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 23:15:39.790] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:15:40.789] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:15:40.789] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
+[21Oct2025 23:18:30.227] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player a18aca8f-045d-3cb5-a34b-480e96829118 timed out
+[21Oct2025 23:18:30.227] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player megatuber06
+[21Oct2025 23:18:30.228] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to megatuber06
+[21Oct2025 23:18:35.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: megatuber06 moved too quickly! -6.079011478075927,7.683575808789534,-2.120263588607031
+[21Oct2025 23:18:40.346] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:18:41.312] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player a18aca8f-045d-3cb5-a34b-480e96829118
+[21Oct2025 23:18:41.313] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player megatuber06 (a18aca8f-045d-3cb5-a34b-480e96829118) successfully connected to voice chat
